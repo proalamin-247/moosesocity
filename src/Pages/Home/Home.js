@@ -1,9 +1,10 @@
 import React from 'react';
+import ClaimArea from './ClaimArea/ClaimArea';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is home page</h1>
+            <ClaimArea></ClaimArea>
         </div>
     );
 };

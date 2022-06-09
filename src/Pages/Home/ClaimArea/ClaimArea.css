@@ -1,0 +1,13 @@
+.border{
+    border-right: 1px solid hsl(0deg 0% 0% / 22%);
+        width: 260px!important;
+}
+
+.claimArea{
+    background-color: #0c0324;
+    background-image: url(https://moosesocietynft.io/wp-content/uploads/2022/05/Mutant_Hideout_Base_1blur.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    padding: 100px 0 150px;
+}
