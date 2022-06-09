@@ -22,7 +22,7 @@ const Navbar = () => {
                 <div class="navbar-end p-2">
                     <div class="hidden lg:flex">
                         <ul class="menu text-white menu-horizontal p-0">
-                            <li><a>Home</a></li>
+                            <li><a href="https://moosesocietynft.io/">Home</a></li>
                         </ul>
                     </div>
 

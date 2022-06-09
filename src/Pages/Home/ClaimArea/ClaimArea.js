@@ -4,8 +4,8 @@ import { BsArrowRight } from "react-icons/bs";
 
 const ClaimArea = () => {
     return (
-        <div className='claimArea '>
-            <div className='container'>
+        <div className='claimArea'>
+            <div className='container p-5'>
                 <h1 className='text-5xl lg:text-7xl text-white'>Claim Your Free Hideout!</h1>
                 <p className='text-md lg:text-xl text-gray-400'>ALL MOOSE SOCIETY HOLDERS ARE ELIGIBLE TO CLAIM ONE FREE HIDEOUT!</p>
                 <p className='text-xl  text-gray-400'>Mint Price: .005 ETH + Gas Mint Max: NO LIMIT</p>
