@@ -1,19 +1,20 @@
 import React from 'react';
- import './ClaimArea.css'
+ import './ClaimArea.css';
+import { BsArrowRight } from "react-icons/bs";
 
 const ClaimArea = () => {
     return (
-        <div className='claimArea mt-5'>
+        <div className='claimArea '>
             <div className='container'>
                 <h1 className='text-7xl text-white'>Claim Your Free Hideout!</h1>
                 <p className='text-xl text-gray-400'>ALL MOOSE SOCIETY HOLDERS ARE ELIGIBLE TO CLAIM ONE FREE HIDEOUT!</p>
                 <p className='text-xl  text-gray-400'>Mint Price: .005 ETH + Gas Mint Max: NO LIMIT</p>
-                <div className='mt-3 w-72'>
-                    <button class="btn btn-wide">Wide</button>
-                    <h1 className='text-4xl text-center text-white'>or</h1>
+                <div className='mt-5 w-72 '>
+                    <button class="btn btn-wide">Claim Your Free Hideout</button>
+                    <h1 className='text-4xl text-center text-white my-3 mr-3'>or</h1>
 
-                    <div className='flex space-x-4'>
-                        <button class="btn btn-success">Success</button>
+                    <div className='flex space-x-4 mt-2'>
+                        <button class="btn btn-success text-white">Mint Hideout <BsArrowRight /></button>
                         <div>
                             <select class="select select-info w-full max-w-xs">
                                 <option disabled selected>Select...</option>
@@ -42,17 +43,18 @@ const ClaimArea = () => {
                     </div>
 
                     <div className='flex space-x-32 mt-5 text-white'>
-                        <div className='border w-full'>
+                        <div className='w-full'>
                             <span className='text-4xl'>1250</span>
-                            <p className='text-xl'>Hero Hideouts</p>
+                            <p className='text-xl text-gray-400'>Hero Hideouts</p>
                         </div>
                         <div className=''>
                             <span className='text-4xl'>1250</span>
-                            <p className='text-xl'>Hero Hideouts</p>
+                            <p className='text-xl text-gray-400 '>Mutant Hideouts
+</p>
                         </div>
                         <div className=''>
-                            <span className='text-4xl'>1250</span>
-                            <p className='text-xl'>Hero Hideouts</p>
+                            <span className='text text-4xl'>50+</span>
+                            <p className='text-xl text-gray-400'>Traits</p>
                         </div>
                     </div>
                 </div>

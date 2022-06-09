@@ -1,0 +1,22 @@
+.news_letter_wrapper {
+    position: relative;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #4e10ff 0%, #ab17df 100%);
+    z-index: 1;
+    
+    padding: 48px;
+    border-radius: 8px 8px 8px 8px;
+}
+.news_letter_overly {
+      background-image: url("https://moosesocietynft.io/wp-content/uploads/2022/03/noise-footer.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 1;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -1;
+}

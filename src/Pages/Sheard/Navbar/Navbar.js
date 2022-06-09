@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div class="navbar bg-neutral container sticky">
+        <div class="navbar bg-neutral fixed">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -12,7 +12,6 @@ const Navbar = () => {
                         <a class="btn">Get started</a>
                     </ul>
                 </div>
-                {/* <a class="btn btn-ghost normal-case text-xl">daisyUI</a> */}
                 <div class="">
                     <img src="https://i.ibb.co/02yGKW1/logo.webp" />
                 </div>
@@ -20,7 +19,6 @@ const Navbar = () => {
             
 
             <div class="navbar-end p-2">
-
                 <div class="hidden lg:flex">
                     <ul class="menu text-white menu-horizontal p-0">
                         <li><a>Home</a></li>
