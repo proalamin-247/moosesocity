@@ -1,0 +1,10 @@
+.hero_top {
+    padding-top: 80px!important;
+}
+.hero_top .hero_top_img {
+    background-color: #0c0324;
+    background-image: url(https://moosesocietynft.io/wp-content/uploads/2022/05/Evolution-Machine-Green-side.png);
+    background-size: contain;
+    font-size: x-large;
+    padding: 150px 0 102px;
+}
